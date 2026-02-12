@@ -1,8 +1,25 @@
----
-
 # 📘 Atividades em HTML e JavaScript
 
-Este repositório contém uma coleção de atividades desenvolvidas em **HTML** e **JavaScript**, com o objetivo de praticar conceitos básicos da linguagem, como entrada de dados, processamento, saída de informações e interação com o usuário.
+Este repositório contém uma coleção de atividades desenvolvidas em **HTML5** e **JavaScript**, com o objetivo de praticar conceitos fundamentais do desenvolvimento web, como:
+
+* Entrada de dados
+* Processamento de informações
+* Manipulação do DOM
+* Interação com o usuário
+* Operações matemáticas
+* Manipulação de datas
+
+---
+
+## 📑 Sumário
+
+* [🟢 Atividade 1 – Programa de Boas-Vindas]
+* [🟢 Atividade 2 – Boas-Vindas com Concatenação de Campos]
+* [🟢 Atividade 3 – Somatória de Dois Números Inteiros]
+* [🟢 Atividade 4 – Máquina de Frutas (Monte Seu Suco)]
+* [🟢 Atividade 5 – Calculadora de Intervalo entre Datas]
+* [🚀 Tecnologias Utilizadas]
+* [📚 Observação]
 
 ---
 
@@ -92,6 +109,39 @@ Explorar interações mais avançadas com o usuário e manipulação de múltipl
 
 ---
 
+## 🟢 Atividade 5 – Calculadora de Intervalo entre Datas
+
+### 📌 Descrição
+
+Aplicação que permite ao usuário selecionar duas datas através de campos do tipo `date` e calcular automaticamente o intervalo entre elas.
+
+O sistema exibe a diferença em:
+
+* Dias
+* Meses
+* Anos
+
+Também possui um botão para limpar os campos e reiniciar o formulário.
+
+### 🛠️ Conceitos utilizados
+
+* `<input type="date">`
+* Manipulação do DOM com `getElementById()`
+* Funções em JavaScript
+* Objeto `Date`
+* Cálculo de diferença entre datas (milissegundos → dias → meses → anos)
+* `Math.abs()` para evitar valores negativos
+* `Math.floor()` para arredondamento
+* Template Strings
+* Manipulação de `innerHTML`
+* Validação de campos
+
+### 🎯 Objetivo
+
+Praticar o uso do objeto `Date` em JavaScript, realizar cálculos de diferença entre datas e reforçar a manipulação dinâmica de elementos da página.
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 * HTML5
@@ -101,4 +151,8 @@ Explorar interações mais avançadas com o usuário e manipulação de múltipl
 
 ## 📚 Observação
 
-Essas atividades são ideais para quem está iniciando no desenvolvimento web e deseja fortalecer a base em JavaScript e HTML
+Essas atividades são ideais para quem está iniciando no desenvolvimento web e deseja fortalecer a base em **HTML** e **JavaScript**.
+
+Cada exercício foi desenvolvido com foco na prática dos conceitos fundamentais da programação para web.
+
+---
